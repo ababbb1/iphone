@@ -17,7 +17,7 @@ export default function Layout({ children, lockButtonHandler }: Props) {
           onClick={lockButtonHandler}
           className="absolute top-[224px] right-0 w-[8px] h-[100px] z-50 hover:cursor-pointer"
         ></div>
-        <main className="absolute w-full h-[824.8px] px-[27px] py-[24px]">
+        <main className="absolute w-full h-[824.8px] px-[27px] py-[23px]">
           <div className="w-full h-full rounded-md overflow-hidden">
             {children}
           </div>

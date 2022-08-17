@@ -4,21 +4,16 @@ interface Props {
 
 export default function BatteryIcon({ className }: Props) {
   return (
-    <svg viewBox="0 0 29 29" className={className}>
+    <svg viewBox="0 0 30 14" fill="none" className={className}>
       <path
-        fill="none"
-        stroke="#000"
-        stroke-miterlimit="10"
-        d="M4.25 9h17a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-17a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2z"
+        d="M23.75 0H3C1.35 0 0 1.35 0 3V11C0 12.65 1.35 14 3 14H23.75C25.4 14 26.75 12.65 26.75 11V3C26.75 1.35 25.4 0 23.75 0ZM25 11C25 11.6875 24.4375 12.25 23.75 12.25H3C2.3125 12.25 1.75 11.6875 1.75 11V3C1.75 2.3125 2.3125 1.75 3 1.75H23.75C24.4375 1.75 25 2.3125 25 3V11ZM28 3.7875V10.2125C29 10.2125 30 8.48125 30 7C30 5.51875 29 3.7875 28 3.7875V3.7875Z"
+        fill="#999"
+        style={{ opacity: ".6" }}
       />
-      <path d="M4.75 10.5h13v8h-13a1 1 0 01-1-1v-6a1 1 0 011-1zM24.75 12.05v4.899a2.5 2.5 0 000-4.899z" />
       <path
-        fill="none"
-        stroke="#000"
-        stroke-miterlimit="10"
-        d="M4.25 9h17a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-17a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2z"
+        d="M23 3H3.75C3.3375 3 3 3.3375 3 3.75V10.25C3 10.6625 3.3375 11 3.75 11H23C23.4125 11 23.75 10.6625 23.75 10.25V3.75C23.75 3.3375 23.4125 3 23 3Z"
+        fill="currentColor"
       />
-      <path d="M4.75 10.5h13v8h-13a1 1 0 01-1-1v-6a1 1 0 011-1zM24.75 12.05v4.899a2.5 2.5 0 000-4.899z" />
     </svg>
   );
 }
