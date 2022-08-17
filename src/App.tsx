@@ -1,25 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Layout from "./components/layout";
+import LockScreen from "./components/lock-screen";
 
 function App() {
+  const [isScreenOn, setIsScreenOn] = useState(false);
+  const [isLocked, setIsLocked] = useState(true);
+
+  const handleLockButton = () => {
+    setIsScreenOn((prev) => !prev);
+    setIsLocked(true);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout lockButtonHandler={handleLockButton}>
+      <div className="w-full h-full relative">
+        {isLocked && <LockScreen {...{ isScreenOn }} />}
+        <div className="w-full h-full bg-default-image bg-cover"></div>
+      </div>
+    </Layout>
   );
 }
 
