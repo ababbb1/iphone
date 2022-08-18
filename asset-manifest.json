@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/iphone/static/css/main.9ffa1f42.css",
-    "main.js": "/iphone/static/js/main.656fffc5.js",
+    "main.css": "/iphone/static/css/main.c5be2a4d.css",
+    "main.js": "/iphone/static/js/main.af49a585.js",
     "static/media/background.png": "/iphone/static/media/background.86e87c1df153f7d817cd.png",
     "static/media/iphone-border.png": "/iphone/static/media/iphone-border.c6628391e203283770fd.png",
     "index.html": "/iphone/index.html",
-    "main.9ffa1f42.css.map": "/iphone/static/css/main.9ffa1f42.css.map",
-    "main.656fffc5.js.map": "/iphone/static/js/main.656fffc5.js.map"
+    "main.c5be2a4d.css.map": "/iphone/static/css/main.c5be2a4d.css.map",
+    "main.af49a585.js.map": "/iphone/static/js/main.af49a585.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ffa1f42.css",
-    "static/js/main.656fffc5.js"
+    "static/css/main.c5be2a4d.css",
+    "static/js/main.af49a585.js"
   ]
 }
